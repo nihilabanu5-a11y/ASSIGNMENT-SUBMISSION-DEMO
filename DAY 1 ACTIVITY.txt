@@ -1,0 +1,27 @@
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main() {
+
+    string name;
+    int age;
+    int marks;
+
+    cout << "Enter your name: ";
+    cin >> name;
+
+    cout << "Enter your age: ";
+    cin >> age;
+
+    cout << "Enter your marks: ";
+    cin >> marks;
+
+    cout << "________ Student Information ________" << endl;
+
+    cout << "Name: " << name << endl;
+    cout << "Age: " << age << endl;
+    cout << "Marks: " << marks << endl;
+
+    return 0;
+}
